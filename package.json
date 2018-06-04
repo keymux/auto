@@ -1,0 +1,25 @@
+{
+  "name": "@keymux/auto",
+  "version": "0.1.0",
+  "description": "A set of automation tools replacing what usually ends up being package.json run scripts",
+  "bin": {
+    "test:unit": "test:unit.js"
+  },
+  "scripts": {
+    "test:unit": "bin/test:unit.js"
+  },
+  "main": "src/main.js",
+  "license": "MIT",
+  "dependencies": {
+    "@keymux/promisrfs": "^0.1.1",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "mochawesome": "^3.0.2",
+    "nyc": "^12.0.2",
+    "sinon": "^5.0.10",
+    "uuid": "^3.2.1"
+  }
+}
